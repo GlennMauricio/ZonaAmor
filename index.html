@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestra Aventura</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styletitulo.css" />
+  </head>
+  <center>
+  <body>
+    <div class="container">
+      <span style="--l: '¡A';">¡A</span>
+      <span style="--l: 'V';">V</span>
+      <span style="--l: 'E';">E</span>
+      <span style="--l: 'N';">N</span>
+      <span style="--l: 'T';">T</span>
+      <span style="--l: 'U';">U</span>
+      <span style="--l: 'R';">R</span>
+      <span style="--l: 'A!';">A!</span>
+    </div>
+    <br>
+    <br>
+    <br>
+  </center>
+    <section class="slider-container">
+      <div class="slider-images">
+        <div class="slider-img">
+          <img src="Images/1.jpeg" alt="1" />
+          <h1>Nuestro primer dia.</h1>
+          <div class="details">
+            <h2>28 de enero del 2017</h2>
+            <p>Alondra y Glenn</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/2.jpg" alt="2" />
+          <h1>Graduacion de Secundaria.</h1>
+          <div class="details">
+            <h2>Un gran dia</h2>
+            <p>Tan hermosa como siempre</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/3.jpg" alt="3" />
+          <h1>Primer Viaje.</h1>
+          <div class="details">
+            <h2>Veracruz</h2>
+            <p>En paz descanse tu chancla</p>
+          </div>
+        </div>
+        <div class="slider-img active">
+          <img src="Images/4.jpg" alt="4" />
+          <h1>Dia de muertos.</h1>
+          <div class="details">
+            <h2>Charro</h2>
+            <p>Solo ante ti me arrodillo</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/5.jpg" alt="5" />
+          <h1>Navidad.</h1>
+          <div class="details">
+            <h2>Zona VIP</h2>
+            <p>Demostrandote mi trabajo jijiji</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/6.jpg" alt="6" />
+          <h1>Fiesta.</h1>
+          <div class="details">
+            <h2>Cumpleaños de Carlitos</h2>
+            <p>Ese dia todos te veian lo hermosa que estabas</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="Images/7.jpg" alt="7" />
+          <h1>Peda.</h1>
+          <div class="details">
+            <h2>Hermosa</h2>
+            <p>Ese dia estabas tan pinche hermosa la neta siempre lo estas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jQuery.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+<center>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href="Pregunta/declaracion.html" class="btn-neon">
+  <span id="span1"></span>
+  <span id="span2"></span>
+  <span id="span3"></span>
+  <span id="span4"></span>
+  SORPRESA
+</a>
+</center>
+
+  </body>
+</html>
